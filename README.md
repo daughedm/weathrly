@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Starter Kit
 
 To install the dependencies:
@@ -29,3 +30,9 @@ To run tests in Node:
 ```js
 npm test
 ```
+=======
+# weatherly
+weather app using wunderground api
+>>>>>>> 1012a0b11efb0d71745acfcc47b5ac9a90773980
+# weathrly
+# weathrly
