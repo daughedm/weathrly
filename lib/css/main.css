@@ -1,5 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   background-image: url(../images/cold.png);
 }
 
 .greeting { padding-bottom: 20px; border-bottom: 1px solid #ccc; }
+
+.wrapper {
+  margin: auto;
+  width: 40%;
+}
+
+.logo {
+  width: 70%;
+  display: block;
+  margin: 100px auto 40px auto;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 85%;
+  border: 2px solid #FFF;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+input:placeholder {
+  font-size: 1rem;
+}
+
+.searchButton {
+  width: 15%;
+  height: 40px;
+  border: 0px solid orangered;
+  background: orangered;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.search-icon {
+  width: 15px;
+}
