@@ -6,7 +6,7 @@
   width: 100vw;
 } */
 
-.wrapper {
+/* .wrapper {
   margin: auto;
   width: 40%;
 }
@@ -24,7 +24,7 @@
 
 .searchTerm {
   float: left;
-  width: 100%;
+  width: 85%;
   border: 3px solid #FFF;
   padding: 5px;
   height: 35px;
@@ -40,13 +40,13 @@ input:placeholder {
 
 .searchButton {
   position: absolute;
-  width: 40px;
+  width: 15%;
   height: 36px;
   border: 1px solid #00B4CC;
-  background: #00B4CC;
+  background: orangered;
   text-align: center;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
-}
+} */

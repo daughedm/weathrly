@@ -4,7 +4,7 @@
   width: 100vw;
 } */
 
-.wrapper {
+/* .wrapper {
   margin: auto;
   width: 40%;
 }
@@ -18,11 +18,11 @@
 .search {
   width: 100%;
   position: relative
-}
+} */
 
-.searchTerm {
+/* .searchTerm {
   float: left;
-  width: 100%;
+  width: 85%;
   border: 3px solid #FFF;
   padding: 5px;
   height: 35px;
@@ -30,21 +30,10 @@
   outline: none;
   color: #333;
   font-size: 1rem;
-}
+} */
 
-input:placeholder {
+/* input:placeholder {
   font-size: 1rem;
-}
+} */
 
-.searchButton {
-  position: absolute;
-  width: 40px;
-  height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
-  text-align: center;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-}
+
