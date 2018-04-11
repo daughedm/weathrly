@@ -1,0 +1,50 @@
+/* .body-div {
+  background-image: url(../images/cold.png);
+  height: 100vh;
+  width: 100vw;
+} */
+
+.wrapper {
+  margin: auto;
+  width: 40%;
+}
+
+.logo {
+  width: 400px;
+  display: block;
+  margin: 100px auto 40px auto;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #FFF;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+input:placeholder {
+  font-size: 1rem;
+}
+
+.searchButton {
+  position: absolute;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
