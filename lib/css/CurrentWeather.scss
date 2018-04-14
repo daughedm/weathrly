@@ -1,4 +1,80 @@
+.headerLogo {
+  width: 225px;
+}
 
+.headerContainer {
+  display: flex;
+  background-color: rgba(255, 255, 255, .25);
+  border-bottom: 2px solid white;
+  justify-content: space-between;
+  padding: 10px 40px 10px 40px;
+  align-content: center;
+}
 
+.display-current-weather {
+  padding: 10px 40px 0 40px;
+  .city {
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+  }
+
+  .date {
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    text-align: right;
+  }
+
+}
+
+.display-temp-icon-container {
+  .display-temp-icon {
+    width: 60%;
+    display: flex;
+    .temp {
+      align-items: center;
+      color: #fff;
+      font-size: 18vw;
+      margin: 0 0 0 9%;
+      max-height: 350px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      vertical-align: middle;
+      width: 50%;
+    }
+    .conditionIcon {
+      width: 27%;
+      max-height: 350px;
+    }
+  }
+}
+
+.card-container {
+  margin: 50px 0 100px 0;
+  .card-inner {
+    color: #fff;
+    width: 60%;
+    .weather-card {
+      width: calc(100% / 7);
+      border-left: 1px solid #fff;
+      img {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+      }
+      .weather-card-text {
+        font-weight: 300;
+        text-align: center;
+      }
+      &:nth-child(7){
+        border-right: 1px solid #fff;
+      }
+    }
+  }
+}
 
 
