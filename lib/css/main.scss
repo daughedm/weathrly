@@ -346,47 +346,24 @@ template {
   display: none;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
 body {
   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
-}
-
-.city {
-  font-size: 35px;
-  color: white;
-  font-weight: 700;
-  display: inline-block;
-}
-
-.date {
-  font-size: 35px;
-  color: white;
-  font-weight: 400;
-  display: inline-block;
-  text-align: right;
-}
-
-.headerLogo {
-  width: 225px;
-}
-
-.headerContainer {
-  display: flex;
-  background-color: rgba(255,255,255,.25);
-  border-bottom: 2px solid white;
-  justify-content: space-between;
-  padding: 10px 40px 10px 40px;
-  align-content: center;
-}
-
-.temp {
-  font-size: 300px;
-  color: white;
-  font-weight: 700;
-  display: inline-block;
-}
-
-.conditionIcon {
-  width: 500px;
 }
 
 .greeting { 
@@ -428,7 +405,7 @@ input:placeholder {
 .searchButton {
   width: 15%;
   height: 40px;
-  border: 0px solid rgb(34, 157, 228);
+  border: 0 solid rgb(34, 157, 228);
   background: rgb(34, 157, 228);
   text-align: center;
   color: #fff;
