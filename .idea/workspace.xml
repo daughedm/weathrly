@@ -21,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45606694">
+    <splitter split-orientation="horizontal" split-proportion="0.4799761">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
@@ -36,7 +36,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/app.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="390">
@@ -61,9 +61,11 @@
           <file leaf-file-name="CurrentWeather.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/CurrentWeather.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-                  <folding />
+                <state relative-caret-position="600">
+                  <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#69#102#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -91,16 +93,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="WundergroundResponseExample.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/WundergroundResponseExample.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="WundergroundEx10day.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/WundergroundEx10day.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -111,27 +103,34 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/api.js">
+          <file leaf-file-name="denverForcast.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/denverForcast.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="138" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="138" />
+                <state relative-caret-position="225">
+                  <caret line="454" column="20" lean-forward="false" selection-start-line="454" selection-start-column="20" selection-end-line="454" selection-end-column="20" />
                   <folding>
-                    <element signature="e#0#44#0" expanded="true" />
+                    <element signature="n#!!block;n#location#0;n#!!block;n#denver#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#current_observation#0;n#!!block;n#denver#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#txt_forecast#0;n#!!block;n#forecast#0;n#!!block;n#denver#0;n#!!top" expanded="false" />
+                    <element signature="e#12878#13224#0" expanded="false" />
+                    <element signature="e#13234#13794#0" expanded="false" />
+                    <element signature="e#13804#14289#0" expanded="false" />
+                    <element signature="e#14299#14718#0" expanded="false" />
+                    <element signature="e#14728#15127#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
           <file leaf-file-name="DataSanitizer.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/DataSanitizer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="816">
-                  <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="15" />
+                <state relative-caret-position="430">
+                  <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -160,6 +159,10 @@
       <find>setState</find>
       <find>&lt;</find>
       <find>apiCall</find>
+      <find>hourly</find>
+      <find>console.log</find>
+      <find>high</find>
+      <find>\/\/ console\.log\(\)\n</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -186,10 +189,11 @@
         <option value="$PROJECT_DIR$/lib/index.js" />
         <option value="$PROJECT_DIR$/key.js" />
         <option value="$PROJECT_DIR$/lib/WelcomeScreen.js" />
-        <option value="$PROJECT_DIR$/lib/DataSanitizer.js" />
         <option value="$PROJECT_DIR$/lib/App.js" />
         <option value="$PROJECT_DIR$/lib/app.js" />
         <option value="$PROJECT_DIR$/lib/api.js" />
+        <option value="$PROJECT_DIR$/lib/denverForcast.js" />
+        <option value="$PROJECT_DIR$/lib/DataSanitizer.js" />
       </list>
     </option>
   </component>
@@ -411,12 +415,12 @@
       <workItem from="1523391133538" duration="4846000" />
       <workItem from="1523399789036" duration="423000" />
       <workItem from="1523547114728" duration="1190000" />
-      <workItem from="1523574339832" duration="18944000" />
+      <workItem from="1523574339832" duration="24931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41471000" />
+    <option name="totallyTimeSpent" value="47458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -450,21 +454,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/denverForcast.js</url>
+          <line>466</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -727,14 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/WundergroundResponseExample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/largest1000cities.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -759,22 +753,6 @@
             <element signature="e#0#39#0" expanded="true" />
             <marker date="1523581548662" expanded="true" signature="628:631" ph="&lt;SubmitForm/&gt;" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CurrentWeather.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/SubmitForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,10 +812,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CurrentWeather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#69#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/WundergroundResponseExample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/SubmitForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/denverForcast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="454" column="20" lean-forward="false" selection-start-line="454" selection-start-column="20" selection-end-line="454" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!block;n#location#0;n#!!block;n#denver#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#current_observation#0;n#!!block;n#denver#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#txt_forecast#0;n#!!block;n#forecast#0;n#!!block;n#denver#0;n#!!top" expanded="false" />
+            <element signature="e#12878#13224#0" expanded="false" />
+            <element signature="e#13234#13794#0" expanded="false" />
+            <element signature="e#13804#14289#0" expanded="false" />
+            <element signature="e#14299#14718#0" expanded="false" />
+            <element signature="e#14728#15127#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/DataSanitizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="15" />
+        <state relative-caret-position="430">
+          <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
           <folding />
         </state>
       </provider>
