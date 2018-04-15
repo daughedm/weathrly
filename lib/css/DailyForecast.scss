@@ -1,3 +1,27 @@
+
+.display-temp-icon-container {
+  .display-temp-icon {
+    width: 60%;
+    display: flex;
+    .temp {
+      align-items: center;
+      color: #fff;
+      font-size: 18vw;
+      margin: 0 0 0 9%;
+      max-height: 350px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      vertical-align: middle;
+      width: 50%;
+    }
+    .conditionIcon {
+      width: 27%;
+      max-height: 350px;
+    }
+  }
+}
+
 .card-container {
   margin: 50px 0 100px 0;
   .card-inner {
