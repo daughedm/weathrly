@@ -1,3 +1,9 @@
+import { shallow } from 'enzyme';
+import App from '../lib/app';
+import React from 'react';
+
+
+
 describe('App tests', () => {
   let renderedApp;
 
@@ -12,9 +18,11 @@ describe('App tests', () => {
   it('Should initially have set states of a toggle, true; an undefined city, and error of false', () => {
     expect(renderedApp.state()).toEqual(
       {
-        currWeatherObj: {},
-        hourArray: [],
-        dayArray: []
+        location: this.getData(),
+        weatherData: {},
+        cities,
+        searchResults: [],
+        apiError: false
       });
   });
 

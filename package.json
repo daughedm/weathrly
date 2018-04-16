@@ -16,7 +16,7 @@
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
     }
   },
   "author": "Steve Kinney",
@@ -38,6 +38,7 @@
     "chai": "^3.5.0",
     "css-loader": "^0.23.1",
     "enzyme": "^2.9.1",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^2.6.0",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.8.0",
@@ -50,7 +51,8 @@
     "mocha-loader": "^0.7.1",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^3.13.1",
-    "react": "^15.1.0",
+    "react": "^15.6.2",
+    "react-addons-test-utils": "^15.6.2",
     "react-dom": "^15.1.0",
     "react-test-renderer": "^15.5.4",
     "sass-loader": "^3.2.3",
