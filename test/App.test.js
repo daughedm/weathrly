@@ -1,14 +1,24 @@
-import { shallow } from 'enzyme';
-import App from '../lib/app';
 import React from 'react';
-
-
+import {shallow} from 'enzyme';
+import App from '../lib/app.js';
+import LocalStorageMock from '../src/setupTests';
 
 describe('App tests', () => {
   let renderedApp;
+  window.localStorage = {
+    getItem: jest.fn(),
+    setItem: jest.fn(),
+    removeItem: jest.fn()
+  };
+
+  window.fetch = jest.fn().mockImplementation(() => Promise.resolve({
+    json: () => Promise.resolve({
+      groceries: mockGroceries
+    })
+  }));
 
   beforeEach(() => {
-    renderedApp = shallow(<App />);
+    renderedApp = shallow(<App/>);
   });
 
   it('should exist', () => {
@@ -26,7 +36,7 @@ describe('App tests', () => {
       });
   });
 
-  it('App should have a default state of key and it should be default value', ()=>{
+  it('App should have a default state of key and it should be default value', () => {
 
     const expectDefaultState = {
       currWeatherObj: {},
