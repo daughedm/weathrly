@@ -6,7 +6,7 @@
     .temp {
       align-items: center;
       color: #fff;
-      font-size: 18vw;
+      font-size: 14vw;
       margin: 0 0 0 9%;
       max-height: 350px;
       text-align: center;
@@ -22,13 +22,19 @@
   }
 }
 
+.current-conditions {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 .card-container {
   margin: 50px 0 100px 0;
   .card-inner {
     color: #fff;
     width: 60%;
     .weather-card {
-      width: calc(100%);
+      width: 100%;
       border-left: 1px solid #fff;
       img {
         width: 60%;
@@ -42,6 +48,14 @@
       &:nth-child(7){
         border-right: 1px solid #fff;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    .card-inner {
+      width: 90%;
     }
   }
 }
