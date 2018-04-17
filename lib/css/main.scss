@@ -421,3 +421,12 @@ input:placeholder {
 .search-icon {
   width: 15px;
 }
+
+#suggestions-datalist {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  right: 110px;
+  top: 90px;
+  background: #bbb;
+}
