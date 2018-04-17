@@ -5,11 +5,12 @@ import { shallow } from 'enzyme';
 import App from '../lib/app.js';
 import LocalStorageMock from '../src/setupTests';
 import cities from "../lib/largest1000cities";
-import WelcomeScreen from "../lib/WelcomeScreen";
+import CurrentWeather from "../lib/CurrentWeather";
+import Header from "../lib/Header";
 
-describe('WelcomeScreen', () => {
+describe('CurrentWeather', () => {
   let renderedApp;
-  
+
   window.localStorage = {
     getItem: jest.fn(),
     setItem: jest.fn(),
@@ -17,21 +18,18 @@ describe('WelcomeScreen', () => {
   };
 
   beforeEach(() => {
-    renderedApp = shallow(<WelcomeScreen />);
+    renderedApp = shallow(<CurrentWeather />);
   });
 
   it('should exist', () => {
     expect(renderedApp).toBeDefined();
   });
 
-  it('renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<WelcomeScreen />, div);
+  it('should render the Card Container component', () => {
+    expect(renderedApp.find('CardContainer').length).toEqual(1);
   });
 
-  it('should render the SubmitForm component', () => {
-    expect(renderedApp.find('SubmitForm').length).toEqual(1);
+  it('should render the Header component', () => {
+    expect(renderedApp.find('Header').length).toEqual(1);
   });
 });
-
-
