@@ -13,6 +13,8 @@ the wunderground API and fetch for the API request.
 
 Whiteboarding
 
+![weathrly-whiteboard](https://user-images.githubusercontent.com/8752377/38851325-87b1c530-41d2-11e8-8f5e-5368960ebe85.jpg)
+
 
 ### *Our Comp:* 
 
