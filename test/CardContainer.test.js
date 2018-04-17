@@ -1,10 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
 import { shallow } from 'enzyme';
-import App from '../lib/app.js';
-import LocalStorageMock from '../src/setupTests';
-import cities from "../lib/largest1000cities";
 import CardContainer from "../lib/CardContainer";
 
 describe('App tests', () => {
@@ -34,10 +29,35 @@ describe('App tests', () => {
   it('should render the ButtonToggleHourly component', () => {
     expect(renderedApp.find('ButtonToggleHourly').length).toEqual(1);
   });
+
   it('should render the ButtonToggleDaily component', () => {
     expect(renderedApp.find('ButtonToggleDaily').length).toEqual(1);
   });
+
   it('should render the HourlyForecast component', () => {
     expect(renderedApp.find('HourlyForecast').length).toEqual(1);
+  });
+
+  it('should render the DailyForecast component', () => {
+    renderedApp.setState({ isHourly: false });
+    expect(renderedApp.find('DailyForecast').length).toEqual(1);
+  });
+
+  describe('State Change', () => {
+    it('should change state correctly when forecastToggleDaily is called', () => {
+      const expectation = { isHourly: false };
+
+      renderedApp.instance().forecastToggleDaily();
+
+      expect(renderedApp.state()).toEqual(expectation);
+    });
+
+    it('should change state correctly when forecastToggleHourly is called', () => {
+      const expectation = { isHourly: true };
+
+      renderedApp.instance().forecastToggleHourly();
+
+      expect(renderedApp.state()).toEqual(expectation);
+    })
   });
 });
