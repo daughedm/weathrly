@@ -18,8 +18,6 @@ Whiteboarding
 
 ### *Our Comp:* 
 
-Design layout
-
 
 
 
