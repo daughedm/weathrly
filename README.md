@@ -9,14 +9,14 @@ the wunderground API and fetch for the API request.
 
 ### Turing School of Software & Design Front-end Engineering project - Mod 2
 
-### *Wireframing:* 
-
-Whiteboarding
+### *Whiteboarding:* 
 
 ![weathrly-whiteboard](https://user-images.githubusercontent.com/8752377/38851325-87b1c530-41d2-11e8-8f5e-5368960ebe85.jpg)
 
 
 ### *Our Comp:* 
+
+<img width="1431" alt="weatherly-mockup-2018-04-10" src="https://user-images.githubusercontent.com/8752377/38851412-e5166bae-41d2-11e8-9b18-92569e351e32.png">
 
 
 
