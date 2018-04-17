@@ -30,3 +30,4 @@ the wunderground API and fetch for the API request.
 
 Camilo Snapp & David Daugherty  
 
+# weathrly
