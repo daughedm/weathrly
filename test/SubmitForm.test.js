@@ -1,37 +1,45 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import SubmitForm from '../lib/SubmitForm';
+import SubmitForm from "../lib/SubmitForm";
+import Trie from '../lib/Trie'
 
-describe('SubmitForm tests', () => {
-  describe('Default state', () => {
-    it('SubmitForm should have a default state of empty strings', () => {
-      const renderedForm = shallow(<SubmitForm />);
+describe('App tests', () => {
+  let renderedApp;
 
-      expect(renderedForm.state()).toEqual(expectation)
-    })
-  })
+  window.localStorage = {
+    getItem: jest.fn(),
+    setItem: jest.fn(),
+    removeItem: jest.fn()
+  };
+
+  beforeEach(() => {
+    renderedApp = shallow(<SubmitForm />);
+  });
+
+  it('should exist', () => {
+    expect(renderedApp).toBeDefined();
+  });
+
+  it.skip('Should initially have set states userInput, prefixTrie, and suggestions', () => {
+    expect(renderedApp.state()).toEqual(
+      {
+        userInput: '',
+        prefixTrie: new Trie(),
+        suggestions: []
+      });
+  });
+
+  it('should render Suggestions component', () => {
+    expect(renderedApp.find('Suggestions').length).toEqual(1);
+  });
+
   describe('State Change', () => {
-    it('should change state correctly when updateInput is called', () => {
-      const renderedForm = shallow(<SubmitForm />);
-      const expectation = { UserInput: 'some title', body: 'some body' };
+    it('should change state correctly when updateUserInput is called', () => {
+      const expectation = 'ABC';
 
-      renderedForm.instance().updateInput({ target: { value: 'some title', name: 'title' } })
-      renderedForm.instance().updateInput({ target: { value: 'some body', name: 'body' } })
+      renderedApp.instance().updateUserInput('ABC');
 
-      expect(renderedForm.state()).toEqual(expectation);
-    })
-
-    it('should allow me to submit a location, () => {
-      const mockFunc = jest.fn();
-      const mockPropFunc = jest.fn();
-      const renderedForm = shallow(<SubmitForm submitIdea={mockPropFunc} />);
-      const expectedPropArguments = { title: 'some title', body: 'some body' }
-
-      renderedForm.setState({ title: 'some title', body: 'some body' })
-      renderedForm.instance().sendIdeaToApp({ preventDefault: mockFunc })
-
-      expect(mockFunc).toHaveBeenCalled();
-      expect(mockPropFunc).toHaveBeenCalledWith(expectedPropArguments);
-    })
-  })
-})
+      expect(renderedApp.state()).toEqual(expectation);
+    });
+  });
+});
