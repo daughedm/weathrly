@@ -18,7 +18,9 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
     },
-    "setupFiles": ["jest-localstorage-mock"]
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ]
   },
   "author": "Steve Kinney",
   "license": "MIT",
@@ -53,9 +55,9 @@
     "mocha-loader": "^0.7.1",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^3.13.1",
-    "react": "^15.6.2",
+    "react": "^16.3.2",
     "react-addons-test-utils": "^15.6.2",
-    "react-dom": "^15.1.0",
+    "react-dom": "^16.3.2",
     "react-test-renderer": "^15.5.4",
     "sass-loader": "^3.2.3",
     "style-loader": "^0.13.1",
