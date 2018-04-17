@@ -1,20 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
 import { shallow } from 'enzyme';
-import App from '../lib/app.js';
-import LocalStorageMock from '../src/setupTests';
-import cities from "../lib/largest1000cities";
-import WelcomeScreen from "../lib/WelcomeScreen";
+import WelcomeScreen from '../lib/WelcomeScreen';
+import './css/welcome.scss';
 
-describe('WelcomeScreen', () => {
+
+describe('Welcome Screen', () => {
+
   let renderedApp;
-  
-  window.localStorage = {
-    getItem: jest.fn(),
-    setItem: jest.fn(),
-    removeItem: jest.fn()
-  };
 
   beforeEach(() => {
     renderedApp = shallow(<WelcomeScreen />);
@@ -24,14 +16,14 @@ describe('WelcomeScreen', () => {
     expect(renderedApp).toBeDefined();
   });
 
-  it('renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<WelcomeScreen />, div);
+  it('Should initially have set states isHourly', () => {
+    expect(renderedApp.state()).toEqual(
+      {
+
+      });
   });
 
-  it('should render the SubmitForm component', () => {
+  it('should render SubmitForm component', () => {
     expect(renderedApp.find('SubmitForm').length).toEqual(1);
   });
 });
-
-
