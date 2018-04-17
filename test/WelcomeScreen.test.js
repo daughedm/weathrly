@@ -16,13 +16,6 @@ describe('Welcome Screen', () => {
     expect(renderedApp).toBeDefined();
   });
 
-  it('Should initially have set states isHourly', () => {
-    expect(renderedApp.state()).toEqual(
-      {
-
-      });
-  });
-
   it('should render SubmitForm component', () => {
     expect(renderedApp.find('SubmitForm').length).toEqual(1);
   });
