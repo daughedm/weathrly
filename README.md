@@ -18,7 +18,9 @@ the wunderground API and fetch for the API request.
 
 <img width="1431" alt="weatherly-mockup-2018-04-10" src="https://user-images.githubusercontent.com/8752377/38851412-e5166bae-41d2-11e8-9b18-92569e351e32.png">
 
+### *Desktop Screenshot:* 
 
+![image](https://user-images.githubusercontent.com/8752377/38851534-50447c36-41d3-11e8-8c3c-25782f5330fd.png)
 
 
 
