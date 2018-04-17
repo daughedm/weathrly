@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from '../lib/Button';
+import CurrentWeather from '../lib/CurrentWeather.js';
 
-describe('Button', () => {
+describe('Welcome Screen', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Button />, div);
+    ReactDOM.render(<CurrentWeather />, div);
   });
 });
