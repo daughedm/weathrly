@@ -1,7 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { configure, shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
-import { shallow } from 'enzyme';
+configure({adapter: new Adapter()});
+
+import React from 'react';
 import App from '../lib/app.js';
 import LocalStorageMock from '../src/setupTests';
 import cities from "../lib/largest1000cities";

@@ -27,10 +27,11 @@ describe('Suggestions Component', () => {
     expect(renderedApp.find('#suggestions-datalist'));
   });
 
-  it('should render datalist with options', () => {
+  it('should render datalist with 10 options', () => {
     const props = { suggestions:
         ["Dearborn heights, mi", "Detroit, mi", "Denton, tx", "Des moines, ia", "Des plaines, il", "Desoto, tx", "Dearborn, mi", "Denver, co", "Deltona, fl", "Delray beach, fl"]};
     renderedApp = mount(<Suggestions  {...props} />);
-    expect(renderedApp.find('#suggestions-datalist'));
+    // expect(renderedApp.find('option'));
+    expect(renderedApp.find('option').length).toEqual(10);
   });
 });
