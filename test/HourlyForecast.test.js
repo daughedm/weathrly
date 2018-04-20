@@ -4,12 +4,17 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-import HourlyForecast from '../lib/HourlyForecast';
+import HourlyForecast from "../lib/HourlyForecast";
+
 
 describe('Hourly Forecast', () => {
-  it('renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<HourlyForecast />, div);
+  let renderedApp;
+
+  beforeEach(() => {
+    renderedApp = shallow(<HourlyForecast />);
+  });
+
+  it('should exist', () => {
+    expect(renderedApp).toBeDefined();
   });
 });

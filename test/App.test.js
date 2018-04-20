@@ -4,10 +4,7 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
 
 import React from 'react';
-// import {shallow} from 'enzyme';
-import { shallow, mount, render } from 'enzyme';
 import App from '../lib/app.js';
-import LocalStorageMock from '../src/setupTests';
 
 describe('App tests', () => {
   let renderedApp;

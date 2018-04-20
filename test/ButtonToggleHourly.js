@@ -4,13 +4,13 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
 
 import React from 'react';
-import ButtonToggleDaily from '../lib/ButtonToggleDaily';
+import ButtonToggleHourly from '../lib/ButtonToggleHourly';
 
-describe('Button toggle daily', () => {
+describe('Button toggle hourly', () => {
   let renderApp;
 
   beforeEach(() => {
-    renderApp = shallow(<ButtonToggleDaily/>);
+    renderApp = shallow(<ButtonToggleHourly/>);
   });
 
   it('should be a thing', () => {

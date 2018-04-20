@@ -12,7 +12,6 @@ describe('Suggestions Component', () => {
 
   let renderedApp;
 
-
   beforeEach(() => {
     const props = { suggestions:
         ["Dearborn heights, mi", "Detroit, mi", "Denton, tx", "Des moines, ia", "Des plaines, il", "Desoto, tx", "Dearborn, mi", "Denver, co", "Deltona, fl", "Delray beach, fl"]};

@@ -4,12 +4,9 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
 
 import React from 'react';
-import DataSanitizer from '../lib/DataSanitizer.js';
-import LocalStorageMock from '../src/setupTests';
-import MockData from '../lib/MockData';
 
 describe('DataSanitizer tests', () => {
-
+  let renderedApp;
 
   beforeEach(() => {
     renderedApp = shallow(<App />);
