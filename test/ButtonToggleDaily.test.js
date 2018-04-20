@@ -14,3 +14,4 @@ describe('button toggle daily', () => {
     expect(wrapper).toBeDefined();
   });
 });
+
