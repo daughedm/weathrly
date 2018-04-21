@@ -23,11 +23,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.43279085">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DailyForecast.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/DailyForecast.js">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state relative-caret-position="520">
+                  <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="7" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -35,24 +35,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CardContainer.test.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/CardContainer.test.js">
+          <file leaf-file-name="CurrentWeather.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/CurrentWeather.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/Header.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#0#51#0" expanded="true" />
-                    <element signature="e#138#164#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HourlyForecast.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/HourlyForecast.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="20" />
+                  <caret line="17" column="10" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="10" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -60,13 +59,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DataSanitizer.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lib/DataSanitizer.js">
+          <file leaf-file-name="SubmitForm.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/SubmitForm.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="34" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -79,8 +78,8 @@
           <file leaf-file-name="HourlyForecast.test.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/HourlyForecast.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
                   <folding>
                     <element signature="e#0#51#0" expanded="true" />
                     <element signature="e#138#164#0" expanded="true" />
@@ -89,13 +88,27 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DataSanitizer.test.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/DataSanitizer.test.js">
+          <file leaf-file-name="Header.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/Header.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#51#0" expanded="true" />
+                    <element signature="e#138#164#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SubmitForm.test.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/SubmitForm.test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="585">
+                  <caret line="75" column="47" lean-forward="false" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                    <element signature="e#136#162#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -115,11 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>700</find>
-      <find>get10Temps</find>
-      <find>weatherData</find>
-      <find>dataSanitizer</find>
-      <find>header-search-from</find>
       <find>card-inner</find>
       <find>forecastToggle</find>
       <find>prevent</find>
@@ -145,6 +153,11 @@
       <find>absolut</find>
       <find>washington</find>
       <find>date</find>
+      <find>header</find>
+      <find>compareUserInput</find>
+      <find>submitcity</find>
+      <find>updateUserInput</find>
+      <find>setState</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -152,6 +165,7 @@
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/lib/css</dir>
+      <dir>$PROJECT_DIR$/test</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -161,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/index.js" />
         <option value="$PROJECT_DIR$/key.js" />
         <option value="$PROJECT_DIR$/lib/App.js" />
@@ -177,7 +190,6 @@
         <option value="$PROJECT_DIR$/lib/css/HourlyForecast.scss" />
         <option value="$PROJECT_DIR$/lib/CardContainer.js" />
         <option value="$PROJECT_DIR$/lib/Header.js" />
-        <option value="$PROJECT_DIR$/lib/CurrentWeather.js" />
         <option value="$PROJECT_DIR$/lib/WelcomeScreen.js" />
         <option value="$PROJECT_DIR$/lib/api.js" />
         <option value="$PROJECT_DIR$/lib/css/DailyForecast.scss" />
@@ -186,9 +198,7 @@
         <option value="$PROJECT_DIR$/lib/Trie.js" />
         <option value="$PROJECT_DIR$/lib/suggestions.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/lib/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/SubmitForm.js" />
         <option value="$PROJECT_DIR$/lib/SetupTest.js" />
         <option value="$PROJECT_DIR$/SetupTest.js" />
         <option value="$PROJECT_DIR$/lib/css/welcome.scss" />
@@ -201,7 +211,6 @@
         <option value="$PROJECT_DIR$/test/WelcomeScreen.test.js" />
         <option value="$PROJECT_DIR$/test/CardContainer.test.js" />
         <option value="$PROJECT_DIR$/test/App.test.js" />
-        <option value="$PROJECT_DIR$/test/SubmitForm.test.js" />
         <option value="$PROJECT_DIR$/test/ButtonToggleHourly.js" />
         <option value="$PROJECT_DIR$/test/ButtonToggleDaily.test.js" />
         <option value="$PROJECT_DIR$/test/CurrentWeather.test.js" />
@@ -212,6 +221,11 @@
         <option value="$PROJECT_DIR$/test/HourlyForecast.test.js" />
         <option value="$PROJECT_DIR$/test/DataSanitizer.test.js" />
         <option value="$PROJECT_DIR$/lib/DataSanitizer.js" />
+        <option value="$PROJECT_DIR$/lib/CurrentWeather.js" />
+        <option value="$PROJECT_DIR$/test/Header.test.js" />
+        <option value="$PROJECT_DIR$/lib/app.js" />
+        <option value="$PROJECT_DIR$/lib/SubmitForm.js" />
+        <option value="$PROJECT_DIR$/test/SubmitForm.test.js" />
       </list>
     </option>
   </component>
@@ -278,12 +292,6 @@
               <item name="weathrly" type="b2602c69:ProjectViewProjectNode" />
               <item name="weathrly" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weathrly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weathrly" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="weathrly" type="b2602c69:ProjectViewProjectNode" />
@@ -359,18 +367,18 @@
       <workItem from="1523919248152" duration="3772000" />
       <workItem from="1523981310630" duration="15000" />
       <workItem from="1523981479320" duration="1803000" />
-      <workItem from="1524191545117" duration="8754000" />
+      <workItem from="1524191545117" duration="18838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114940000" />
+    <option name="totallyTimeSpent" value="125024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15250151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15250151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -403,7 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/WundergroundEx10day.js" />
     <entry file="file://$PROJECT_DIR$/lib/SevenHour.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -488,28 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/key.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,16 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/SubmitForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/WelcomeScreen.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -635,73 +614,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <element signature="e#138#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/SubmitForm.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#136#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ButtonToggleHourly.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ButtonToggleDaily.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CurrentWeather.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/WelcomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,17 +640,6 @@
           <folding>
             <element signature="e#0#49#0" expanded="true" />
             <element signature="e#136#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/CurrentWeather.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <element signature="e#138#164#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -778,34 +684,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/CardContainer.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <element signature="e#138#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/HourlyForecast.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/HourlyForecast.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <element signature="e#138#164#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -822,10 +706,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/DataSanitizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="555">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/WelcomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CurrentWeather.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#138#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#138#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ButtonToggleDaily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CurrentWeather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Header.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#138#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/HourlyForecast.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#138#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/SubmitForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CardContainer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#138#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SubmitForm.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="75" column="47" lean-forward="false" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#136#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
