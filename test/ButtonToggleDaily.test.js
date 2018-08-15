@@ -8,7 +8,7 @@ describe('button toggle daily', () => {
 
   beforeEach(() => {
     wrapper = shallow(<ButtonToggleDaily />)
-  })
+  });
 
   it('should be a thing', () => {
     expect(wrapper).toBeDefined();

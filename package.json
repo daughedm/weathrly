@@ -65,6 +65,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "update": "^0.7.4"
   }
 }
