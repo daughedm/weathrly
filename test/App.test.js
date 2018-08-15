@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 import { configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
+=======
+import { configure, shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({adapter: new Adapter()});
+>>>>>>> c3c71d72ebdc2f9c57aabc5b4008145e6e87a143
 
 import React from 'react';
-import {shallow} from 'enzyme';
+// import {shallow} from 'enzyme';
+import { shallow, mount, render } from 'enzyme';
 import App from '../lib/app.js';
 import LocalStorageMock from '../src/setupTests';
 

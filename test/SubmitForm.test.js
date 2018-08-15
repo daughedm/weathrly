@@ -1,7 +1,11 @@
+import { configure, shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({adapter: new Adapter()});
+
 import React from 'react';
-import { shallow } from 'enzyme';
 import SubmitForm from "../lib/SubmitForm";
-import Trie from '../lib/Trie'
+import Trie from '../lib/Trie';
 
 describe('App tests', () => {
   let renderedApp;
