@@ -53,3 +53,5 @@ typings/
 .env
 
 key.js
+
+.idea
